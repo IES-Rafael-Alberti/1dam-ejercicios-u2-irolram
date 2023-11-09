@@ -4,7 +4,7 @@ Escribir un programa que pida al usuario un número entero y muestre por pantall
 def parimpar():
 
 
-#Creamos variable para pedir el numero
+    #Creamos variable para pedir el numero
     numero = int(input("Dame un numero: "))
     #verificamos si es par o impar
     if numero % 2 == 0:
