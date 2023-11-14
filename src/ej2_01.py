@@ -11,7 +11,7 @@ def pedirEdad():
     Retorna
     -------
     int
-        un entero con el valor de la edad introducida por consola.
+    un entero con el valor de la edad introducida por consola.
     """
     salir = False
     while not salir:
@@ -41,7 +41,6 @@ def mayorEdad(edad):
     else:
         return False
     
-
 def main():
     edad = pedirEdad()
 
